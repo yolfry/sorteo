@@ -1,0 +1,23 @@
+[
+    {
+        "passed": 1,
+        "title": "Seguirnos en Instagram",
+        "href": "https://www.instagram.com/perobacompany/",
+        "icon": "Instagram",
+        "valid": false
+    },
+    {
+        "passed": 2,
+        "title": "Dale Me gusta",
+        "href": "https://www.instagram.com/p/C1IV45eLiRf/",
+        "icon": "Instagram",
+        "valid": false
+    },
+    {
+        "passed": 3,
+        "title": "Enviar a 4 contactos de WhatsApp",
+        "href": "whatsapp://send?text=¡Hola! Quería compartir contigo este increíble sorteo en el que puedes ganar premios asombrosos como una laptop, iPhone, tablet o Apple Watch. 🏆🎉 Simplemente haz clic en el enlace a continuación. ¡Buena suerte! 🍀🎁 Link del sorteo: https://perobacompany.com/sorteo/?sorteo=true",
+        "icon": "Whatsapp",
+        "valid": false
+    }
+]

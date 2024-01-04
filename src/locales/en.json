@@ -1,0 +1,35 @@
+{
+    "text": {
+        "titleEnd": "Thank you very much for participating!",
+        "textEnd": "🤩 Your data has been registered for the chance to be selected as the winner.",
+        "backFormRequirement": "Please go back ⏪️ and complete the requirements.",
+        "titleInit": "Great Weekly Giveaway",
+        "passed": "Step #{number}",
+        "participate": "Participate",
+        "description": "Description",
+        "delete": {
+            "yes": "Yes",
+            "no": "No",
+            "delete": "Delete",
+            "message": "Are you sure you want to delete?"
+        },
+        "or": "Or",
+        "back": "Back",
+        "ok": "Ok",
+        "no": "No",
+        "yes": "Yes",
+        "exit": "Exit",
+        "go": "Let's Go!"
+    },
+    "account": {
+        "nameError": "Incorrect name.",
+        "phoneError": "Incorrect phone number.",
+        "emailError": "Incorrect email address.",
+        "placeholder": {
+            "usernamePhoneEmail": "Email, Number, Username",
+            "email": "Email",
+            "phone": "Phone number",
+            "name": "Full Name"
+        }
+    }
+}

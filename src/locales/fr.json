@@ -1,0 +1,35 @@
+{
+    "text": {
+        "titleEnd": "Merci beaucoup d'avoir participé !",
+        "textEnd": "🤩 Vos données ont été enregistrées pour avoir la chance d'être sélectionné comme gagnant(e).",
+        "backFormRequirement": "Veuillez revenir ⏪️ et compléter les exigences.",
+        "titleInit": "Super tirage hebdomadaire",
+        "passed": "Étape #{number}",
+        "participate": "Participer",
+        "description": "Description",
+        "delete": {
+            "yes": "Oui",
+            "no": "Non",
+            "delete": "Supprimer",
+            "message": "Êtes-vous sûr de vouloir supprimer ?"
+        },
+        "or": "Ou",
+        "back": "Retour",
+        "ok": "Ok",
+        "no": "Non",
+        "yes": "Oui",
+        "exit": "Sortir",
+        "go": "Allons-y !"
+    },
+    "account": {
+        "nameError": "Nom incorrect.",
+        "phoneError": "Numéro de téléphone incorrect.",
+        "emailError": "Adresse e-mail incorrecte.",
+        "placeholder": {
+            "usernamePhoneEmail": "E-mail, Numéro, Utilisateur",
+            "email": "Adresse e-mail",
+            "phone": "Numéro de téléphone",
+            "name": "Nom complet"
+        }
+    }
+}

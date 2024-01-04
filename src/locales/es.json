@@ -1,0 +1,35 @@
+{
+    "text": {
+        "titleEnd": "¡Muchas gracias por participar!",
+        "textEnd": "🤩 Tus datos han sido registrados para tener la oportunidad de ser elegido como ganador.",
+        "backFormRequirement": "Por favor, regresa ⏪️ y completa los requisitos.",
+        "titleInit": "Gran sorteo Semanal",
+        "passed": "Paso #{number}",
+        "participate": "Participar",
+        "description": "Descripción",
+        "delete": {
+            "yes": "Sí",
+            "no": "No",
+            "delete": "Eliminar",
+            "message": "¿Seguro que quieres eliminar?"
+        },
+        "or": "O",
+        "back": "Atras",
+        "ok": "Ok",
+        "no": "No",
+        "yes": "Si",
+        "exit": "Salir",
+        "go": "¡Comencemos!"
+    },
+    "account": {
+        "nameError": "Nombre incorrecto.",
+        "phoneError": "Teléfono incorrecto.",
+        "emailError": "Correo electrónico incorrecto.",
+        "placeholder": {
+            "usernamePhoneEmail": "Email, Número, Usuario",
+            "email": "Correo electrónico",
+            "phone": "Número de teléfono",
+            "name": "Nombre Completo"
+        }
+    }
+}
