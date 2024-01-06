@@ -94,7 +94,7 @@ const isValidDataUser = () => {
 
 
 const registerEnd = async () => {
-    await appStore.saveDataApp('form.start', true);
+    await appStore.saveDataApp('form.app.start', true);
     appStore.start = true
 
     window.open(`https://wa.me/${appStore.config.numberWhatsappApp}?text= ${appStore.config.nameWhatsappText} ${appStore.sorteo.name}, ${appStore.config.phoneWhatsappText} ${appStore.sorteo.phone}, Code: ${new Date().getTime()}`, '__blank')
@@ -102,7 +102,7 @@ const registerEnd = async () => {
 
 onMounted(async () => {
     try {
-        const sendForm = await useAppStore().getDataApp('form.start')
+        const sendForm = await useAppStore().getDataApp('form.app.start')
         if (sendForm) {
             appStore.start = sendForm
         }
@@ -114,7 +114,7 @@ onMounted(async () => {
 
     try {
 
-        const requirement = await appStore.getDataApp('form.requirement') as iRequirement[];
+        const requirement = await appStore.getDataApp('form.app.requirement') as iRequirement[];
         if (requirement) {
             appStore.sorteo.requirement.splice(0, appStore.sorteo.requirement.length)
 
@@ -125,7 +125,7 @@ onMounted(async () => {
 
         }
 
-        const slide = await appStore.getDataApp('form.slide');
+        const slide = await appStore.getDataApp('form.app.slide');
 
         if (slide) {
             appStore.swiper.slideTo(slide)
