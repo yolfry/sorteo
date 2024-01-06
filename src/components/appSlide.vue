@@ -75,8 +75,8 @@ watch(appStore.sorteo.requirement, async (inObject) => {
         appStore.sorteo.isParticipe = true
     }
 
-    await appStore.saveDataApp('form.requirement', inObject);
-    await appStore.saveDataApp('form.slide', 1);
+    await appStore.saveDataApp('form.app.requirement', inObject);
+    await appStore.saveDataApp('form.app.slide', 1);
 })
 
 
