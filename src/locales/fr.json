@@ -2,6 +2,7 @@
     "text": {
         "titleEnd": "Merci beaucoup d'avoir participé !",
         "textEnd": "🤩 Vos données ont été enregistrées pour avoir la chance d'être sélectionné comme gagnant(e).",
+        "addNumberTextEnd": "Ajoutez ce numéro de contact, {number}, c'est d'où nous vous contacterons.",
         "backFormRequirement": "Veuillez revenir ⏪️ et compléter les exigences.",
         "titleInit": "Super tirage hebdomadaire",
         "passed": "Étape #{number}",

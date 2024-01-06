@@ -2,6 +2,7 @@
     "text": {
         "titleEnd": "¡Muchas gracias por participar!",
         "textEnd": "🤩 Tus datos han sido registrados para tener la oportunidad de ser elegido como ganador.",
+        "addNumberTextEnd": "Agrega este número de contacto, {number}, es desde donde te vamos a contactar.",
         "backFormRequirement": "Por favor, regresa ⏪️ y completa los requisitos.",
         "titleInit": "Gran sorteo Semanal",
         "passed": "Paso #{number}",

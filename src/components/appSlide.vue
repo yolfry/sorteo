@@ -2,14 +2,12 @@
 
 import { ref, watch, onMounted } from 'vue'
 import { Swiper, SwiperSlide } from 'swiper/vue';
-import { IonContent, IonPage, IonText, IonButton, IonRow, IonCol, IonIcon, loadingController, IonInput } from '@ionic/vue';
+import { IonContent, IonPage, IonText, IonButton, IonRow, IonCol, IonIcon, IonInput } from '@ionic/vue';
 import { Pagination } from "swiper/modules";
 import 'swiper/css';
 import '@ionic/vue/css/ionic-swiper.css';
 import "swiper/css/pagination";
 import "swiper/css/effect-cube";
-import { useRouter } from 'vue-router';
-import { useI18n } from 'vue-i18n';
 import { linkOutline, checkmark, logoInstagram, logoFacebook, logoTiktok, logoTwitter, logoTwitch, logoPinterest, logoGoogle, logoAmazon, logoWhatsapp } from 'ionicons/icons';
 import { useAppStore } from '@/store/app';
 import 'animate.css'
@@ -17,11 +15,6 @@ import regExps from '@/ts/RegExps';
 import { Ticon, iRequirement } from '@/interfaces/iRequirement';
 
 const appStore = useAppStore()
-
-const { locale } = useI18n()
-const router = useRouter()
-
-
 
 const timeClick = ref(10000)
 
@@ -104,7 +97,7 @@ const registerEnd = async () => {
     await appStore.saveDataApp('form.start', true);
     appStore.start = true
 
-    window.open(`https://wa.me/${appStore.config.numberWhatsappApp}?text= ${appStore.config.nameWhatsappText} ${appStore.sorteo.name}, ${appStore.config.phoneWhatsappText} ${appStore.sorteo.phone}`, '__blank')
+    window.open(`https://wa.me/${appStore.config.numberWhatsappApp}?text= ${appStore.config.nameWhatsappText} ${appStore.sorteo.name}, ${appStore.config.phoneWhatsappText} ${appStore.sorteo.phone}, Code: ${new Date().getTime()}`, '__blank')
 }
 
 onMounted(async () => {
@@ -156,6 +149,9 @@ onMounted(async () => {
                     <ion-text color="light">
                         <h1>{{ $t('text.titleEnd') }}</h1>
                         <h4> {{ $t('text.textEnd') }}</h4>
+                        <h5>{{ $t('text.addNumberTextEnd', {
+                            number: appStore.config.numberWhatsappApp
+                        }) }}</h5>
                     </ion-text>
 
                     <img class="logo" src="@/assets/logoPerobaCompany.svg">

@@ -2,6 +2,7 @@
     "text": {
         "titleEnd": "Thank you very much for participating!",
         "textEnd": "🤩 Your data has been registered for the chance to be selected as the winner.",
+        "addNumberTextEnd": "Add this contact number, {number}, it's from where we will contact you.",
         "backFormRequirement": "Please go back ⏪️ and complete the requirements.",
         "titleInit": "Great Weekly Giveaway",
         "passed": "Step #{number}",

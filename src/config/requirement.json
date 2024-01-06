@@ -16,7 +16,7 @@
     {
         "passed": 3,
         "title": "Enviar a 4 contactos de WhatsApp",
-        "href": "whatsapp://send?text=¡Hola! Quería compartir contigo este increíble sorteo en el que puedes ganar premios asombrosos como una laptop, iPhone, tablet o Apple Watch. 🏆🎉 Simplemente haz clic en el enlace a continuación. ¡Buena suerte! 🍀🎁 Link del sorteo: https://perobacompany.com/sorteo/?sorteo=true",
+        "href": "whatsapp://send?text=¡Hola! Quiero compartir contigo este increíble sorteo de PEROBA COMANY en el que puedes ganar premios como Televisores, iPhone, laptop y Tablet. 🏆🎉 haz clic en el enlace. ¡Buena suerte! 🍀🎁 Link del sorteo: https://perobacompany.com/sorteo/?sorteo=true",
         "icon": "Whatsapp",
         "valid": false
     }
