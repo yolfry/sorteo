@@ -1,23 +1,23 @@
 [
     {
         "passed": 1,
+        "title": "Enviar a 5 contactos de WhatsApp",
+        "href": "whatsapp://send?text=¡Hola! Quiero compartir contigo este increíble sorteo de PEROBA COMPANY en el que puedes ganar premios como Televisores, iPhone, laptop y Tablet. 🏆🎉 haz clic en el enlace. ¡Buena suerte! 🍀🎁 Link del sorteo: https://perobacompany.com/sorteo/?sorteo=true",
+        "icon": "Whatsapp",
+        "valid": false
+    },
+    {
+        "passed": 2,
         "title": "Seguirnos en Instagram",
         "href": "https://www.instagram.com/perobacompany/",
         "icon": "Instagram",
         "valid": false
     },
     {
-        "passed": 2,
+        "passed": 3,
         "title": "Dale Me gusta",
         "href": "https://www.instagram.com/reel/C1xB5KIrkwG/?igsh=bzNqYzFlNGxzZjh0",
         "icon": "Instagram",
-        "valid": false
-    },
-    {
-        "passed": 3,
-        "title": "Enviar a 5 contactos de WhatsApp",
-        "href": "whatsapp://send?text=¡Hola! Quiero compartir contigo este increíble sorteo de PEROBA COMPANY en el que puedes ganar premios como Televisores, iPhone, laptop y Tablet. 🏆🎉 haz clic en el enlace. ¡Buena suerte! 🍀🎁 Link del sorteo: https://perobacompany.com/sorteo/?sorteo=true",
-        "icon": "Whatsapp",
         "valid": false
     }
 ]
